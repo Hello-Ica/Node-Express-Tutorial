@@ -2,7 +2,7 @@ const express = require('express');
 const app = express()
 
 app.get('/', (req, res) => {
-  consoile.log('user hit the resource')
+  console.log('user hit the resource')
   res.status(200).send('Home Page')
 })
 
@@ -13,7 +13,7 @@ app.get('/about', (req, res) => {
 app.all('*', (req, res) => {
   res.status(404).send('<h1> resource not found </h1>')
 })
-app.listen(500, ()=> {
+app.listen(5000, ()=> {
   console.log('server is listening to port 5000')
 })
 
