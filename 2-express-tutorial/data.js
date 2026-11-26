@@ -38,6 +38,14 @@ const products = [
       'https://dl.airtable.com/.attachments/3245c726ee77d73702ba8c3310639727/f000842b/product-5.jpg',
     price: 10.00,
     desc: `hello this is a test to the data.js`,
+  },
+  {
+    id: 6,
+    name: 'air fryer',
+    image:
+      'https://dl.airtable.com/.attachments/3245c726ee77d73702ba8c3310639727/f000842b/product-5.jpg',
+    price: 10.00,
+    desc: `another data.js test`,
   }
 ]
 const people = [
